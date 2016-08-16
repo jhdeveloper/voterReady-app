@@ -1,0 +1,93 @@
+﻿
+/* Stylesheet content from css/indexFirst.css in folder common */
+
+html, body {
+    height:100%;
+    width: 100%;
+}
+.container {
+    padding: 0;
+}
+
+.thumbnail {
+
+    padding: 0;
+}
+
+
+.importantNews {
+    border: #db6f0f 1px solid;
+}
+
+.importantNews img {
+    width: 100%;
+    border: #db6f0f 1px solid;
+    vertical-align: top;
+}
+
+.textAlerts {
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.textAlerts p {
+    vertical-align: middle;
+    text-align: justify;
+}
+
+
+#startApp {
+    margin-top: 10px;
+}
+
+#startApp .glyphicon {
+  color: #fff;
+}
+
+ #startApp:hover:active {
+       color: #333;
+    background-color: #fff;
+    }
+    .row {
+	margin: 0 auto;
+}
+
+.importantNews {
+	padding: 0;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.importantNews strong, .importantNews p {
+	padding: 5px;
+}
+
+.importantNews strong {
+	text-align: center;
+}
+
+.importantNews img {
+	border: #db6f0f 1px solid;
+	vertical-align: top;
+	width: 100%;
+}
+
+.disclaimerContainer{
+    text-align:center;
+}
+
+.thumbnail {
+	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+	.container {
+		margin-bottom: 20px;
+	}
+	.thumbnail {
+		background-color: #0099FF;
+	}
+	p, strong {
+		font-size: 16px;
+	}
+}
