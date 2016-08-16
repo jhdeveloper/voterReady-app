@@ -69,7 +69,7 @@ var app = angular.module('elections', ['ionic'])
   .controller('mainCtrl', function ($scope) {
     $scope.open = function(){
       ionic.Platform.ready(function(){
-        cordova.InAppBrowser.open('http://gisapps.miamidade.gov/voterReady/', '_blank', 'location=yes');
+        cordova.InAppBrowser.open('http://gisapps.miamidade.gov/voterReady/', '_blank', 'location=no,toolbar=no');
       });
     }
   });
