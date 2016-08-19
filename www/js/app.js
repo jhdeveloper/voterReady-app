@@ -71,5 +71,14 @@ var app = angular.module('elections', ['ionic'])
       ionic.Platform.ready(function(){
         cordova.InAppBrowser.open('http://gisapps.miamidade.gov/voterReady/', '_blank', 'location=no,toolbar=no');
       });
+    };
+    $scope.openLink = function(link){
+      ionic.Platform.ready(function(){
+        cordova.InAppBrowser.open(link, '_blank', 'location=no').then(function(event){
+
+        }).catch(function(event){
+
+        });
+      });
     }
   });
